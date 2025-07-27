@@ -1,0 +1,115 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background: url('../images/background image.jpeg') no-repeat center center fixed;
+  background-size: cover;
+  background-color: rgba(255, 255, 255, 0.9); /* Optional overlay */
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  line-height: 1.6;
+  background-color: #f5f1f1;
+  color: #e4e0e0d0;
+  padding: 20px;
+}
+
+header {
+  background: #ffffff;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav a {
+  color: #fff;
+  margin: 0 10px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
+
+main {
+  margin-top: 20px;
+  padding: 20px;
+  background: white;
+  border-radius: 8px;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer {
+  text-align: center;
+  margin-top: 20px;
+  padding: 10px;
+  background: #fcfcfc;
+  color: white;
+}
+/* Responsive layout */
+@media (max-width: 768px) {
+  nav ul {
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .project-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .hero {
+    padding: 2rem;
+  }
+}
+
+/* Animations */
+.hero h2, .about h2, .portfolio h2, .contact h2 {
+  animation: fadeIn 1s ease-out forwards;
+  opacity: 0;
+}
+
+@keyframes fadeIn {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+  from {
+    opacity: 0;
+    transform: translateY(20px);
+  }
+}
+header, nav, main, footer {
+  background: rgba(255, 255, 255, 0.2); /* Light transparent */
+  backdrop-filter: blur(10px);
+  -webkit-backdrop-filter: blur(10px);
+  padding: 20px;
+  margin: 10px auto;
+  border-radius: 10px;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  max-width: 1200px;
+}
+.overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background-color: rgba(112, 111, 111, 0.3); /* dark transparent overlay */
+  z-index: 0;
+}
+
+/* Bring content above overlay */
+header, nav, main, footer {
+  position: relative;
+  z-index: 1;
+  background-color: rgba(37, 36, 36, 0.952); /* optional content background */
+  padding: 20px;
+  margin: 10px;
+  border-radius: 10px;
+}
