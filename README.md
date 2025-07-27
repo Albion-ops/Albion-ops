@@ -1,16 +1,54 @@
 ## Hi there 👋
 
-<!--
-**Albion-ops/Albion-ops** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+# 🌐 George Koikai – Portfolio Website
 
-Here are some ideas to get you started:
+Welcome to my personal portfolio website, built using **HTML** and **CSS** to showcase my skills, projects, and services in a clean and responsive layout.
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+> 🔗 Live Site: [https://Albion-ops.github.io](https://Albion-ops.github.io)
+
+---
+
+## 📁 About This Project
+
+This website represents my work as a:
+- 💻 Web Designer & Developer
+- 🎨 Graphics Designer
+- 📱 Social Media Marketer
+- 🧠 Virtual Assistant
+
+It includes:
+- ✅ Homepage
+- ✅ About Page
+- ✅ Services / Portfolio Page
+- ✅ Contact Page (with email & phone section)
+- ✅ Smooth scrolling, animations, hover effects, and responsive layout
+
+---
+
+## 🔧 Built With
+
+- HTML5
+- CSS3
+- Font Awesome (for icons)
+- Responsive design techniques
+- CSS animations and hover effects
+- (Optional) AOS Library for scroll animations
+
+---
+
+---
+
+## 🧩 Folder Structure
+
+```bash
+.
+├── index.html
+├── about.html
+├── portfolio.html
+├── contact.html
+├── style.css
+├── images/
+│   ├── background.png
+│   ├── icons/
+│   └── your images...
+
