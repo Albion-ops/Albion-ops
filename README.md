@@ -32,7 +32,6 @@ It includes:
 - Font Awesome (for icons)
 - Responsive design techniques
 - CSS animations and hover effects
-- (Optional) AOS Library for scroll animations
 
 ---
 
