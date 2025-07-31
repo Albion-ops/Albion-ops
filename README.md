@@ -4,7 +4,7 @@
 
 Welcome to my personal portfolio website, built using **HTML** and **CSS** to showcase my skills, projects, and services in a clean and responsive layout.
 
-> 🔗 Live Site: https://koikaisolutions.vercel.app/
+> 🔗 Live Site: https://koikaiportfolio.vercel.app/
 
 ---
 
